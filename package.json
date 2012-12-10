@@ -1,0 +1,22 @@
+{
+  "name": "midigrid",
+  "description": "turns midi-based grid controllers (launchpad, livid, apc, etc.) into serialosc devices",
+  "version": "0.0.1",
+  "main": "./lib/midigrid.js",
+  "author": {
+    "name": "Tom Dinchak",
+    "email": "dinchak@gmail.com"
+  },
+  "dependencies": {
+    "midi": "*",
+    "serialosc": "git://github.com/dinchak/node-serialosc.git#master"
+  },
+  "keywords": [
+    "monome",
+    "serialosc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dinchak/node-midigrid.git"
+  }
+}
